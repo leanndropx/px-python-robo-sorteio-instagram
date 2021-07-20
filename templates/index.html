@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteio Instagram</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            justify-content: center;
+            margin-left: 2rem;
+            margin-right: 5rem;
+            align-content: center;
+            justify-content: center;
+            justify-items: center;
+        }
+        header {
+            margin-top: 10rem;}
+
+    </style>
+</head>
+<body center>
+    
+    <header></header>
+
+    
+    <center>
+        <main>
+            <h1>SORTEIO INSTAGRAM</h1>
+            <p>Insira abaixo a URL de uma postagem</p>
+        
+            <form action="/result" method="GET">
+                <input type="text" placeholder="Insira aqui a URL de um post" name="url"></input>
+        
+                <p>Quantos vencedores você deseja sortear?</p>
+        
+        
+                    <div id="radio">
+                        <INPUT TYPE="RADIO" NAME="quantosvencedores" VALUE="1"> 1 vencedor
+                        <INPUT TYPE="RADIO" NAME="quantosvencedores" VALUE="2"> 2 vencedores
+                        <INPUT TYPE="RADIO" NAME="quantosvencedores" VALUE="3"> 3 vencedores
+                    </div>
+        
+                        <br>
+        
+                    <button style="color: blueviolet;">Selecionar vencedor</button>
+            </form>
+        
+        </main>
+    </center>
+</body>
+</html>
